@@ -2,11 +2,17 @@
 
 ## creating a simple microservice that responds to some information
 
-### requirements
+*Always install the latest versions to access all features.
 
-- Docker 
-- Python 3.8
-- Pipenv
+**Installation examples for UBUNTU/Linux system. If necessary, consult the web about your system.
+
+### Requirements
+
+[Docker](https://docs.docker.com/engine/install/ubuntu/) 
+
+[Python 3.8](https://www.python.org/downloads/)
+
+[Pipenv](https://pipenv-es.readthedocs.io/es/stable/)
 
 
 1. First build the image Docker:
@@ -52,9 +58,9 @@ $ docker push %youruser%/plana:latest
 
 # For Kubernetes
 
-### requirements
+### Requirements
 
-- kubectl
+[Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - access a kubernetes cluster :)
 
 1. apply deployment
