@@ -23,7 +23,7 @@ $ docker run -d -p 5000:5000 --name plana-test plana
 ```
 $ curl -X GET http://%yourip/host%:5000/
 ```
-4. The application should be a web server that returns a JSON response, when its `/` URL path is accessed:
+4. The application returns the JSON response when its /URL path is accessed:
 
 and this respose
 ```json
