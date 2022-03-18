@@ -7,7 +7,7 @@ app.config['JSON_SORT_KEYS'] = False
 
 date =  datetime.now()
 version = pkg_resources.get_distribution('flask').version
-engine = Flask
+
 
 @app.route("/", methods=['GET'])
 def get_infos():

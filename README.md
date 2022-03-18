@@ -31,7 +31,7 @@ $ curl -X GET http://%yourip/host%:5000/
 ```
 4. The application returns the JSON response when its /URL path is accessed:
 
-and this respose
+and this respose:
 ```json
 {
   "timestamp": "<current date and time>",
