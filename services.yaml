@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: plana-infos-service
+spec:
+  selector:
+    app: plana-infos
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 8080

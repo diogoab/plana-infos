@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plana-infos
+  labels:
+    app: plana-infos
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: plana-infos
+  template:
+    metadata:
+      labels:
+        app: plana-infos
+    spec:
+      containers:
+      - name: plana-infos
+        image: jokerdab/plana:latest
+        ports:
+        - containerPort: 5000
